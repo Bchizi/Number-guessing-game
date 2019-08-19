@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Number guessing game</title>
+
+
+
+</head>
+
+<body>
+    <h1>Number guessing game</h1>
+    <div class=jumbotron>
+        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell
+            you if your guess was too high or too low.</p>
+
+        <div class="form">
+            <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="form-control" class="guessField">
+            <br>
+            <input type="submit" value="Submit guess"class="btn btn-success" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+
+    </div>
+
+    <script>
+        // Your JavaScript goes here
+    </script>
+</body>
+
+</html>
